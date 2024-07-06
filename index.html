@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Mistry</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Web.jpg" type="image/png">
+  <script src="https://kit.fontawesome.com/b5796bc5de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.png" alt="logo" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu( )"></i>
+      </nav>
+      <div class="headtext">
+        <p id="changing-text"></p>
+        <h1>Hi, I <span>Shubham</span> <br>Mistry from India</h1>
+      </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col1">
+          <img src="Self.jpg" alt="">
+        </div>
+        <div class="about-col2">
+          <h1 class="subtitle">About me</h1>
+          <p class="aboutpara">
+            I'm 4th year student pursuing a Bachelor of Engineering in Computer Science & Technology at Gujarat
+            Technological University. My passion lies in exploring the exciting fields of Data Science and Artificial
+            Intelligence. I'm driven by curiosity and a desire to delve into the vast world of technology, seeking to
+            innovate and make meaningful contributions to the future. Join me on this journey as I dive deeper into the
+            realms of Data Science and AI, exploring new horizons and pushing boundaries.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link " onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience')"> Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+            <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>Programming Languages</span><br>Basics of<br> 1.Python 2.Java 3.C 4. HTML/CSS/JS</li>
+              <li><span>Data Science Tools</span><br>NumPy,Pandas,Matplotlib,Sklearn</li>
+              <li><span>Machine Learning</span><br>Classification & Regression</li>
+              <li><span>Communication</span><br>Teamwork Abilities</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>Intern</span><br>1 Month virtual Internship/Masterclass On A.I. at Pantech.ai <br>also known as
+                Pantech Solutions.</li>
+              <li><span>Intern</span><br>2 Week Virtual Internship On Data Analytics and Machine Learning<br>at Infolabz,Ahmedabad.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2019</span><br>S.S.C. Form Gujarat Board</li>
+              <li><span>2021</span><br>H.S.C. Branch: Science Form Gujarat Board</li>
+              <li><span>2021-2025</span><br>pursuing B.E. Computer Science & Engineering Form G.T.U.</li>
+              <li><span>2023-2024</span><br>Pursuing the Specialized Machine Learning course provided by Andrew N.G.
+                (Deep learning.AI) and Stanford
+                Online through platform of coursera. </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Certifications">
+            <ul>
+              <li><span>September 2,2023</span><br>One Month Al masterclass virtual Internship from Pantech Solutions.
+              </li>
+              <li><span>January 10,2024</span><br>Completed Supervised Machine Learning algorithm Course from coursera.</li>
+              <li><span>June 3,2024</span><br>Completed SQL Basics to Advance Course from Geeksters.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------Services--------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web-Development</h2>
+            <p>
+              Having Basics of HTML,CSS,JS.
+            </p>
+            <a href="https://shubh07074.github.io/TTS/" target="_blank">Learn-More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-file-excel"></i>
+            <h2>Model training & testing</h2>
+            <p>
+              Having little knowledge about model data Fitting, data import, data manipulation.
+            </p>
+            <a href="https://github.com/shubh07074/Infolabz" target="_blank">Learn-More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Database SQL</h2>
+            <p>
+              Having Database Management System knowledge SQL.
+            </p>
+            <a href="https://certifications.geekster.in/5EqLZ7PtipryTPFUqFM31-geekster.pdf" target="_blank">Learn-More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------Portfolio--------- -->
+    <div id="Portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="WORK1.jpeg" alt="">
+            <div class="layer">
+              <h3>Data Manipulation</h3>
+              <p>Data manipulation is the process of transforming and organizing raw data to make it useful for analysis. This includes cleaning, merging, and reshaping data to ensure accuracy and consistency. Effective data manipulation is essential for deriving meaningful insights and making informed decisions.</p>
+              <a href="https://github.com/shubh07074/Infolabz/tree/main/Task/Task1" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="WORK2.jpeg" alt="">
+            <div class="layer">
+              <h3>Data Fetching & Visualization</h3>
+              <p>Data fetching involves gathering data from various sources like databases and APIs to compile a complete dataset. On the other hand, data visualization uses graphs and charts to present this data visually, making complex information easier to understand and analyze.</p>
+              <a href="https://github.com/shubh07074/Infolabz/tree/main/Task/Task2" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="WORK3.jpeg" alt="">
+            <div class="layer">
+              <h3>ML Models</h3>
+              <p>Linear regression is a statistical technique used to understand the relationship between a dependent variable and one or more independent variables. It assumes a linear relationship and aims to find the best-fit line to predict the dependent variable based on the independent variables' values.</p>
+              <a href="https://github.com/shubh07074/Infolabz/tree/main/Task/Task4" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/shubh07074" target="_blank" class="button">See more</a>
+    </div>
+    <!-- --------Contact--------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="contact_row">
+          <div class="contact-left">
+            <h1 class="sub-title"> Contact Me</h1>
+            <p> <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> <i
+                  class="fa-solid fa-envelope"></i></a>shubhammistry0707@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9558183399</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/shubham-mistry-261a2227a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_resumebuilder%3BGBVW6MMAShSCBJrWl85PZg%3D%3D"
+                target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://twitter.com/i_shubham_7" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=" https://wa.me/9558183399" target="_blank"><i class="fa-brands fa-whatsapp"></i></i></a>
+              <a href="https://www.instagram.com/i_shubham7/?next=%2F" target="_blank"><i
+                  class="fa-brands fa-instagram"></i></a>
+              <a href="https://t.me/+REj8wAXG0FEwZjVl" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <a href="ShubhamMistry.pdf" download class="button button2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+              <button type="submit" class="button button2">Submit</button>
+            </form>
+            <span id="status"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>All rights reserved @Copyright2024, Build and developed by SHUBHAM MISTRY. </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      for (var i = 0; i < tablinks.length; i++) {
+        tablinks[i].addEventListener("click", function () {
+          var tabname = this.textContent.trim();
+          for (var j = 0; j < tablinks.length; j++) {
+            tablinks[j].classList.remove("active-link");
+            tabcontents[j].classList.remove("active-tab");
+          }
+          this.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        });
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.left = "250px";
+      }
+      function closemenu(){
+        sidemenu.style.left = "-250px";
+      }
+    </script>
+    
+    <script>
+      const textElement = document.getElementById('changing-text');
+      const textArray = ['Data Scientist', 'Data Analyst', 'ML Engineer'];
+      let index = 0;
+      const typingSpeed = 100;
+      const erasingSpeed = 100;
+      const newTextDelay = 0;
+      const erasingDelay = 1000;
+
+      function typeText(text, i) {
+        if (i < text.length) {
+          textElement.textContent += text.charAt(i);
+          i++;
+          setTimeout(() => typeText(text, i), typingSpeed);
+        } else {
+          setTimeout(eraseText, erasingDelay);
+        }
+      }
+
+      function eraseText() {
+        const text = textElement.textContent;
+        if (text.length > 0) {
+          textElement.textContent = text.substring(0, text.length - 1);
+          setTimeout(eraseText, erasingSpeed);
+        } else {
+          index = (index + 1) % textArray.length;
+          setTimeout(() => typeText(textArray[index], 0), newTextDelay);
+        }
+      }
+
+      typeText(textArray[index], 0);
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzjuiAVpWFhmp9h-7PGMpK1h3fSOc91pGpnUPKbrAMtnmH9QXFEPDgV-__2-6HmRtsw/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const status = document.getElementById('status')
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            status.innerHTML = 'Thanks for your message. I will get back to you soon!'
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+
+</html>
